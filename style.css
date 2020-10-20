@@ -35,10 +35,39 @@ body {
     color: #109CF1;
 }
 
-.search {
+.search-bar {
     width: 1184px;
     height: 60px;
     background: #FFFFFF;
+}
+
+.search {
+    width: 118px;
+    height: 20px;
+    margin: 20px 1030px 20px 36px;
+    color: #90A0B7;
+    display: flex;
+}
+
+.search-icon {
+    width: 14.57px;
+    height: 14.57px;
+    padding: 0;
+    margin-right: 15px;
+    
+}
+
+.search-label {
+    width: 86px;
+    height: 18px;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    white-space: nowrap;
+}
+
+.notification {
+    margin-left: 1000px;
 }
 
 .top-divider {
@@ -92,6 +121,10 @@ body {
     letter-spacing: 0.01em;
 }
 
+.utils i {
+    margin-right: 16px;
+}
+
 .active {
     color: #109CF1;
 }
@@ -115,6 +148,8 @@ body {
     margin-top: 351px;
     color: #90A0B7;
     display: flex;
+    white-space: nowrap;
+    justify-content: space-evenly;
 }
 
 .toggle-option p{ 
