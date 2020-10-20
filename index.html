@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,12 +10,11 @@
     <script src="https://kit.fontawesome.com/5fd3e104f5.js" crossorigin="anonymous"></script>
     <title>SaaS Kit</title>
 </head>
-
 <body>
-    
+
     <div class="dashboard container-fluid">
         <div class="row">
-            <div class="side-bar col d-none d-sm-block">
+            <div class="side-bar col-sm-2 d-none d-sm-block">
                 <div class="title">
                     <p>SaaS Kit<p>
                 </div>
@@ -66,8 +64,7 @@
                     <p>Toggle sidebar</p>
                 </div>
             </div>
-            
-            <div class="content container-fluid col">
+            <div class="content col-sm-10">
                 <div class="search-bar row">
                     <div class="search">
                             <img class="search-icon" src="./images/icons/search.png" alt="">
@@ -80,24 +77,35 @@
                    
                 </div>
                 <div class="row">
-                    <div class="cards big-card col">
-                        Big card
+                    <div class="cards big-card col-md">
+                        <div class="progress-calendar">
+                            <div class="progress">
+                                <h4>Progress bar and calendar</h4>
+                            </div>
+                        </div>
+                        <div class="card-divider"></div>
+                        <div class="tasks">
+                            <div class="task row justify-content-around">Task 1</div>
+                            <div class="task row justify-content-around">Task 2</div>
+                            <div class="task row justify-content-around">Task 3</div>
+                        </div>
                     </div>
-                    <div class="small-cards col">
+                    <div class="small-cards col-md">
                         <div class="cards small-card row">
-                            card
+                            <div class="deals">
+                                <h4>Deals</h4>
+                            </div>
                         </div>
                         <div class="cards small-card row">
-                            card
+                            <div class="deals">
+                                <h4>Tasks</h4>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            
-           
         </div>
     </div>
-
+    
 </body>
-
 </html>
