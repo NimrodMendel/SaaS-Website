@@ -113,6 +113,8 @@ body {
     margin-left: 24px;
     margin-bottom: 20px;
     margin-right: 55px;
+
+    display: flex;
 }
 
 .utils p {
@@ -123,6 +125,10 @@ body {
 
 .utils i {
     margin-right: 16px;
+    width: 15px;
+    height: 15px;
+    padding: 0;
+    margin-right: 16.5px;
 }
 
 .active {
